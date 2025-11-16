@@ -13,60 +13,36 @@
       background: #f9f4ec;
       color: #111111;
       display: flex;
+      flex-direction: column;
       align-items: center;
       justify-content: center;
       min-height: 100vh;
       text-align: center;
     }
 
-    .wrap {
-      max-width: 420px;
-      width: 100%;
-      padding: 2rem 1.25rem;
-    }
-
     .logo {
       max-width: 220px;
-      width: 70%;
+      width: 80%;
       height: auto;
-      margin: 0 auto 1.25rem;
-      display: block;
+      margin-bottom: 1.5rem;
     }
 
     h1 {
-      letter-spacing: 0.16em;
+      letter-spacing: 0.18em;
       text-transform: uppercase;
-      font-size: 1.5rem;
+      font-size: 1.4rem;
       margin-bottom: 0.75rem;
     }
 
-    .tagline {
-      font-size: 0.98rem;
-      margin-bottom: 1rem;
-    }
-
-    .services {
-      font-size: 0.9rem;
-      margin-bottom: 1.6rem;
-      line-height: 1.5;
-    }
-
-    .services span {
-      text-transform: uppercase;
-      letter-spacing: 0.14em;
-      font-size: 0.78rem;
-      display: block;
-      margin-bottom: 0.25rem;
-    }
-
-    .services strong {
-      display: block;
-      margin-top: 0.4rem;
+    p {
+      max-width: 320px;
+      font-size: 0.95rem;
+      margin-bottom: 1.5rem;
     }
 
     a.button {
       display: inline-block;
-      padding: 0.7rem 1.8rem;
+      padding: 0.7rem 1.6rem;
       border-radius: 999px;
       background: #111111;
       color: #ffffff;
@@ -74,55 +50,25 @@
       text-transform: uppercase;
       letter-spacing: 0.12em;
       font-size: 0.8rem;
-      margin-bottom: 0.8rem;
     }
 
-    .handle {
-      font-size: 0.85rem;
-      color: #444;
-    }
-
-    .handle strong {
-      font-weight: 600;
+    a.button:hover {
+      opacity: 0.9;
     }
   </style>
 </head>
 <body>
-  <div class="wrap">
-    <!-- your logo file is inside the StylesbyVanessaV folder -->
-    <img
-      src="StylesbyVanessaV/16EFB7BE-2E10-49AF-B0CB-90044E870E44.png"
-      alt="StylesByVanessaV Logo"
-      class="logo"
-    />
+  <!-- If the logo file is in this repo, this will show it -->
+  <img src="16EFB7BE-2E10-49AF-B0CB-90044E870E44.png" alt="StylesByVanessaV Logo" class="logo" />
 
-    <h1>StylesByVanessaV</h1>
+  <h1>StylesByVanessaV</h1>
+  <p>
+    Braids, locs, natural hair & crochet styles.  
+    Clean parts, protective styling, and looks that last.
+  </p>
 
-    <p class="tagline">
-      Braids, locs, natural hair & crochet styles with clean parts and
-      protective styling so you stay looking fresh longer.
-    </p>
-
-    <p class="services">
-      <span>Services</span>
-      Knotless braids · Box braids · Feed-in / stitch braids · Loc
-      maintenance · Natural styles · Crochet & more.
-      <strong>Silk presses are not offered at this time.</strong>
-    </p>
-
-    <a
-      class="button"
-      href="https://instagram.com/stylesbyvanessav"
-      target="_blank"
-      rel="noopener"
-    >
-      Book on Instagram
-    </a>
-
-    <div class="handle">
-      Follow on Instagram:
-      <strong>@stylesbyvanessav</strong>
-    </div>
-  </div>
+  <a class="button" href="https://instagram.com/stylesbyvanessav" target="_blank" rel="noopener">
+    Book on Instagram
+  </a>
 </body>
 </html>
